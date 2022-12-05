@@ -7,7 +7,7 @@ const Home = () => {
     }
      return ( 
         <div className="home">
- <h2>Homepage</h2>
+ <h2 className="lead">Homepage</h2>
  <p>{name}</p>
   
  <button onClick={handleClick} >click it </button>
