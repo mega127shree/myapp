@@ -1,8 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Cart from './Cart';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+ 
 const Navigationbar = () => {
     return(
         
@@ -18,17 +19,7 @@ const Navigationbar = () => {
                     <Nav.Link className="fw-bold" href="#menu">Menu</Nav.Link>
                     <Nav.Link className="fw-bold" href="#musttry">Must Try</Nav.Link>
                     <Nav.Link className="fw-bold" href="#contactus">Contact us</Nav.Link>
-                    {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.2">
-                        Another action
-                      </NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                      <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                      </NavDropdown.Item>
-                    </NavDropdown> */}
+                    <Cart/>
                   </Nav>
                 </Navbar.Collapse>
                 </Container>
